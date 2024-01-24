@@ -1,11 +1,10 @@
 <?php
 
-$host='localhost';
-$user='atpvhjgj';
-$password='sXmvLZ';
-$db_name='atpvhjgj_m2';
+$host = 'localhost';
+$user = 'root';
+$password = '';
+$db_name = 'burger_db';
 
-$link=mysqli_connect($host,$user,$password,$db_name);
-$link->set_charset('utf8');
-
-?>
+$connect = mysqli_connect($host, $user, $password, $db_name);
+//mysqli_query($connect, "SET NAMES 'utf8'");
+//$link->set_charset('utf8');
